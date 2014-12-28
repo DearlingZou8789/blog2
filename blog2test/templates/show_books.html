@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>
+	show_books
+</title>
+</head>
+<body>
+{% for book in books %}
+<div>
+<h2>{{forloop.counter}}.{{book.name}}</h2>
+
+{% for author in book.authors.all %}
+
+<h4>{{forloop.counter}}.{{author.name}}</h4>
+{% endfor %}
+</div>
+
+{% endfor %}
+</body>
