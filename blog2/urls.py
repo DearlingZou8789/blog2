@@ -12,4 +12,5 @@ urlpatterns = patterns('',
     url(r'^blog2test/show_authors$','blog2test.views.show_authors'),
     url(r'^blog2test/show_books$','blog2test.views.show_books'),
     url(r'^blog2test/register$','blog2test.views.register'),
+    url(r'^blog2test/index$','blog2test.views.index'),
 )
