@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Author	models.py	/^class Author(models.Model):$/;"	c
+Blog	models.py	/^class Blog(models.Model):$/;"	c
+Book	models.py	/^class Book(models.Model):$/;"	c
+Entry	models.py	/^class Entry(models.Model):$/;"	c
+User	models.py	/^class User(models.Model):$/;"	c
+UserForm	views.py	/^class UserForm(forms.Form):$/;"	c
+__unicode__	models.py	/^	def __unicode__(self):$/;"	m	class:User	file:
+__unicode__	models.py	/^        def __unicode__(self):$/;"	m	class:Blog	file:
+__unicode__	models.py	/^    def __unicode__(self):$/;"	m	class:Author	file:
+__unicode__	models.py	/^    def __unicode__(self):$/;"	m	class:Book	file:
+__unicode__	models.py	/^    def __unicode__(self):$/;"	m	class:Entry	file:
+authors	models.py	/^    authors=models.ManyToManyField(Author)$/;"	v	class:Book
+entry	models.py	/^        entry=models.ForeignKey(Entry)$/;"	v	class:Blog
+headimage	models.py	/^	headimage=models.FileField(upload_to=".\/upload\/")$/;"	v	class:User
+headimage	views.py	/^    headimage=forms.FileField()$/;"	v	class:UserForm
+name	models.py	/^	name=models.CharField(max_length=100)$/;"	v	class:User
+name	models.py	/^        name=models.CharField(max_length=30)$/;"	v	class:Blog
+name	models.py	/^    name=models.CharField(max_length=100)$/;"	v	class:Book
+name	models.py	/^    name=models.CharField(max_length=30)$/;"	v	class:Entry
+name	models.py	/^    name=models.CharField(max_length=38)$/;"	v	class:Author
+name	views.py	/^    name=forms.CharField()$/;"	v	class:UserForm
+register	views.py	/^def register(req):$/;"	f
+sex	models.py	/^    sex=models.CharField(max_length=1,choices=sex_choices)$/;"	v	class:Entry
+sex_choices	models.py	/^sex_choices=($/;"	v
+show_authors	views.py	/^def show_authors(req):$/;"	f
+show_books	views.py	/^def show_books(req):$/;"	f

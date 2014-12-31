@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>登陸</title>
+</head>
+<body>
+Welcome <h1>{{username}}<h1> to Django!
+<a href="/blog2test/logout">退出</a>
+</body>
+</html>

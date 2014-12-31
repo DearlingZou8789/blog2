@@ -1,0 +1,50 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALLOWED_HOSTS	blog2/settings.py	/^ALLOWED_HOSTS = []$/;"	v
+Author	blog2test/models.py	/^class Author(models.Model):$/;"	c
+BASE_DIR	blog2/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(__file__))$/;"	v
+Blog	blog2test/models.py	/^class Blog(models.Model):$/;"	c
+Book	blog2test/models.py	/^class Book(models.Model):$/;"	c
+DATABASES	blog2/settings.py	/^DATABASES = {$/;"	v
+DEBUG	blog2/settings.py	/^DEBUG = True$/;"	v
+Entry	blog2test/models.py	/^class Entry(models.Model):$/;"	c
+INSTALLED_APPS	blog2/settings.py	/^INSTALLED_APPS = ($/;"	v
+LANGUAGE_CODE	blog2/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+MIDDLEWARE_CLASSES	blog2/settings.py	/^MIDDLEWARE_CLASSES = ($/;"	v
+ROOT_URLCONF	blog2/settings.py	/^ROOT_URLCONF = 'blog2.urls'$/;"	v
+SECRET_KEY	blog2/settings.py	/^SECRET_KEY = 'eamaum$!jpdfkv(%((mw8gw6y*mhy41^^j2lwwmc44)p)krbt('$/;"	v
+STATIC_URL	blog2/settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+TEMPLATE_DEBUG	blog2/settings.py	/^TEMPLATE_DEBUG = True$/;"	v
+TIME_ZONE	blog2/settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+USE_I18N	blog2/settings.py	/^USE_I18N = True$/;"	v
+USE_L10N	blog2/settings.py	/^USE_L10N = True$/;"	v
+USE_TZ	blog2/settings.py	/^USE_TZ = True$/;"	v
+User	blog2test/models.py	/^class User(models.Model):$/;"	c
+UserForm	blog2test/views.py	/^class UserForm(forms.Form):$/;"	c
+WSGI_APPLICATION	blog2/settings.py	/^WSGI_APPLICATION = 'blog2.wsgi.application'$/;"	v
+__unicode__	blog2test/models.py	/^	def __unicode__(self):$/;"	m	class:User	file:
+__unicode__	blog2test/models.py	/^        def __unicode__(self):$/;"	m	class:Blog	file:
+__unicode__	blog2test/models.py	/^    def __unicode__(self):$/;"	m	class:Author	file:
+__unicode__	blog2test/models.py	/^    def __unicode__(self):$/;"	m	class:Book	file:
+__unicode__	blog2test/models.py	/^    def __unicode__(self):$/;"	m	class:Entry	file:
+application	blog2/wsgi.py	/^application = get_wsgi_application()$/;"	v
+authors	blog2test/models.py	/^    authors=models.ManyToManyField(Author)$/;"	v	class:Book
+entry	blog2test/models.py	/^        entry=models.ForeignKey(Entry)$/;"	v	class:Blog
+headimage	blog2test/models.py	/^	headimage=models.FileField(upload_to=".\/upload\/")$/;"	v	class:User
+headimage	blog2test/views.py	/^    headimage=forms.FileField()$/;"	v	class:UserForm
+name	blog2test/models.py	/^	name=models.CharField(max_length=100)$/;"	v	class:User
+name	blog2test/models.py	/^        name=models.CharField(max_length=30)$/;"	v	class:Blog
+name	blog2test/models.py	/^    name=models.CharField(max_length=100)$/;"	v	class:Book
+name	blog2test/models.py	/^    name=models.CharField(max_length=30)$/;"	v	class:Entry
+name	blog2test/models.py	/^    name=models.CharField(max_length=38)$/;"	v	class:Author
+name	blog2test/views.py	/^    name=forms.CharField()$/;"	v	class:UserForm
+register	blog2test/views.py	/^def register(req):$/;"	f
+sex	blog2test/models.py	/^    sex=models.CharField(max_length=1,choices=sex_choices)$/;"	v	class:Entry
+sex_choices	blog2test/models.py	/^sex_choices=($/;"	v
+show_authors	blog2test/views.py	/^def show_authors(req):$/;"	f
+show_books	blog2test/views.py	/^def show_books(req):$/;"	f
+urlpatterns	blog2/urls.py	/^urlpatterns = patterns('',$/;"	v
