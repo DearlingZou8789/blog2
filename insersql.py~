@@ -6,18 +6,20 @@ __author__='zmj'
 import MySQLdb
 import random
 
-def insert(n):
+def insert(n,table):
     conn=MySQLdb.connect(user='root',passwd='tigerwith',host='127.0.0.1')
     conn.select_db("testmysql")
     course=conn.cursor()
-    sqli="insert into testmysql1(name,sex,resume) values(%s,%s,%s)"
+    sqli="insert into ".table."(name,sex,resume) values(%s,%s,%s)"
     for i in range(n):
         array=[]
         for j in range(5):
             ar=(suizi(5),suishu(4),suizi(100))
             array.append(ar)
         course.executemany(sqli,array)
-
+    course.close()
+    conn.commit()
+    conn.close()
 
 def suizi(n):
     a=''
@@ -29,5 +31,5 @@ def suishu(n):
     return random.randint(0,n)
 
 if __name__=="__main__":
-    insert(1000)
+    insert(10000,"testmysql2")
 
