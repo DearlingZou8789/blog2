@@ -6,4 +6,4 @@ Blog enhanced
 test git branch
 
 
-a master branch
+creating a branch named "fastfile"
