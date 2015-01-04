@@ -7,3 +7,5 @@ test git branch
 
 
 creating a branch named "fastfile"
+
+add merge dev
